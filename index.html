@@ -1,0 +1,34 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Simple metric/imperial unit converter for length, volume, and mass.">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Metric/Imperial Unit Conversion</title>
+    </head>
+    <body>
+        <section class="first-container">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <p>This tool converts between Metric and Imperial units for length, volume, and mass.</p>
+            <label for="num-field">Enter a value to convert:</label>
+            <input id="num-field" type="number">
+            <button id="convert-btn">Convert</button>
+        </section>
+        
+        <section class="second-container">
+            <div class="convert-box">
+                <h1>Length (Meter/Feet)</h1>
+                <p id="length-paragraph"></p>
+            </div>
+            <div class="convert-box">
+                <h1>Volume (Liters/Gallons)</h1>
+                <p id="volume-paragraph"></p>
+            </div>
+            <div class="convert-box">
+                <h1>Mass (Kilograms/Pounds)</h1>
+                <p id="mass-paragraph"></p>
+            </div>   
+        </section> 
+        <script src="js/script.js"></script>
+    </body>
+</html>
